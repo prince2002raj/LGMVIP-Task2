@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin: auto;
+    width: 400px;
+    margin-top: 40px;
+    border: 4px solid black;
+    padding: 20px;
+    background-color: rgb(15, 238, 164);
+    text-align: center;
+}
+input[type=text]{
+    background-color: rgb(142, 200, 234);
+    height: 60px;
+    color: black;
+    border: 3px outset black;
+    width: 315px;
+    font-size: 30px;
+    text-align: right;
+    padding: 5px; 
+}
+#view{
+    margin: auto;
+}
+table{
+    margin: auto;
+    text-align: center;
+}
+td{
+    padding: 10px;
+}
+.btn{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    width: 60px;
+    margin: auto;
+    background-color: blanchedalmond;
+    color: rgb(6, 0, 53);
+    border: 5px outset red;
+}
+.extra{
+    background-color: rgb(69, 183, 73);
+    border: 5px outset red;
+}
+.btn:active{
+    border: 5px inset black;
+}
+.extra:active{
+    border: 5px inset red;
+}
